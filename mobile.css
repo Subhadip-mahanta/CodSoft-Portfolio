@@ -1,0 +1,262 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+}
+nav{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+}
+ol li{
+    display: block;
+    margin-top: 10px;
+    background-color: red;
+    border-radius: 10px;
+}
+ol li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+/* nav ends here */
+#Home{
+    background-color: black;
+       height: 300px;
+       color: white;
+       width: 100%;
+       text-align: center;
+       padding-top: 40px;
+       
+   }
+   #Home h1{
+       padding-top: 10px;
+       color: white;
+       font-size: 2.2rem;
+   }
+   #Home p{
+       margin-top: 10px;
+       font-size: 1.3rem;
+       margin-bottom: 40px;
+   }
+   #Home #btn1{
+       background-color: white;
+       padding-left: 15px;
+       padding-right: 15px;
+       padding-top: 10px;
+       padding-bottom: 10px;
+       margin-top: 40px;
+       border: 2px solid red;
+       border-radius: 10px;
+   }
+   #Home #btn1:hover{
+       background-color: blue;
+       color: white;
+       border: 1px solid white;
+   }
+   #Home #btn2:hover{
+       background-color: blue;
+       color: white;
+       border: 1px solid white;
+   }
+   #Home a{
+       text-decoration: none;
+       color: red;
+   
+   }
+   #Home #btn2{
+       background-color: white;
+       padding-left: 15px;
+       padding-right: 15px;
+       padding-top: 10px;
+       padding-bottom: 10px;
+       margin-top: 40px;
+       border: 2px solid red;
+       border-radius: 10px;
+   }
+   /* Home ends here */
+
+#About{
+    background-color: black;
+    padding-left: 0px;
+    margin-left: 0px;
+    color: white;
+}
+#About #div1{
+    padding: 10px;
+}
+#About #div1 h2{
+    margin-bottom: 10px;
+}
+#About #div1 p{
+    border-bottom: 1px solid rgb(255, 28, 28);
+    width: 80%;
+    padding: 10px;
+}
+#About #div2 p{
+    width: 90%;
+    text-align: justify;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+#About .btn11{
+    background-color: white;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid red;
+    border-radius: 10px;
+    cursor: pointer;
+    color: red;
+}
+#About .btn11:hover{
+    background-color: blue;
+    color: white;
+    border: 1px solid white;
+}
+
+#About .btn12{
+    background-color: white;
+    padding: 10px;
+    padding-left: 13px;
+    padding-right: 13px;
+    margin: 5px;
+    border: 1px solid red;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#About a{
+    text-decoration: none;
+    color: red;
+}
+#About .btn12:hover{
+    background-color: blue;
+    color: white;
+    border: 1px solid white;
+}
+/* about ends here */
+#Service{
+    /* background-color: red; */
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+#Service1{
+   
+    padding: 10px;
+    display: block;
+}
+#Service1 div{
+    height: 200px;
+    background-color: rgb(246, 246, 255);
+    width: 90%;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    color: red;
+    box-shadow: 5px 10px 10px rgb(183, 68, 68);
+    cursor: pointer;
+    margin-bottom: 20px;
+    
+}
+#Service1 div:hover{
+    transform: scale(1.1);
+}
+#Service1 div p{
+    text-align: justify;
+}
+#Service1 div img{
+    height: 50px;
+    border-radius: 100px;
+}
+/* service ends here */
+#education{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: black;
+}
+#education2{
+    display: block;
+    justify-content: center;
+    background-color:black;
+    color: white;
+
+}
+#education2 div{
+    background-color: white;
+    color: red;
+    padding: 20px;
+    margin: 20px;
+    height: 170px;
+    width: 80%;
+    margin-left: 35px;
+    border-radius: 10px;
+    box-shadow: 2px 20px 30px rgb(224, 181, 181);
+}
+/* education ends here */
+#contact{
+    
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+#contact2{
+    background-color: white;
+    padding: 20px;
+    width: 300px;
+    display: block;
+    margin: 0px auto;
+    margin-top: 20px;
+    border-radius: 20px 30px;
+    border: 2px solid red;
+    box-shadow: 10px 30px 20px rgb(245, 125, 125);
+    
+}
+#contact2 input{
+    width: 250px;
+    height: 28px;
+    margin-top: 20px;
+    border: 1px solid rgb(254, 17, 17);
+    border-radius: 10px;
+    padding: 10px;
+}
+#contact2 select{
+    width: 250px;
+    height: 28px;
+    margin-top: 20px;
+    border: 1px solid rgb(254, 17, 17);
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    background-color: white;
+}
+#contact2 #message{
+    width: 250px;
+    height: 108px;
+    margin-top: 20px;
+    border: 1px solid rgb(254, 17, 17);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#contact2 #submit{
+    width: 120px;
+    height: 28px;
+    margin-top: 20px;
+    border: 1px solid rgb(254, 17, 17);
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+#submit:hover{
+    color: white;
+    background-color: rgb(99, 99, 223);
+}
